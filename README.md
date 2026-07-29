@@ -6,7 +6,7 @@ This repository contains the code behind the **Seed–Refine–Snap** workflow f
 2. **DBSCAN** for building instance isolation,
 3. **Adaptive alpha-shape seed generation** for initial footprint boundaries,
 4. **GeoRefineNet** for learned boundary refinement, and
-5. a **conservative geometric regularizer** that snaps the refined boundary into a cleaner orthogonal polygon.
+5. A **conservative geometric regularizer** that snaps the refined boundary into a cleaner orthogonal polygon.
 
 The goal is to turn raw `.las` / `.laz` / `.ply` point clouds into usable building footprint polygons with minimal manual cleanup.
 
