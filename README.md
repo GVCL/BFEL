@@ -54,7 +54,7 @@ This stage is conservative by design: it improves structure without overcorrecti
 - `footprint_inference.py`  
   Inference module for the Seed–Refine–Snap pipeline. Includes feature extraction, GeoRefineNet definition, alpha-shape logic, boundary regularisation, and single-building footprint extraction.
 
-- `seed_refine_snap_v10_with_vaihingen_regularizer.ipynb`  
+- `seed_refine_snap_with_vaihingen_regularizer.ipynb`  
   Main research notebook for preprocessing, training, ablations, evaluation, and cross-dataset testing.
 
 - `Ground_Truth_Creation.ipynb`  
@@ -108,7 +108,7 @@ Key packages used by the project:
 Run the preprocessing and training notebook:
 
 ```text
-seed_refine_snap_v10_with_vaihingen_regularizer.ipynb
+seed_refine_snap_with_vaihingen_regularizer.ipynb
 ```
 
 This notebook handles:
